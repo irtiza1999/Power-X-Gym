@@ -99,7 +99,6 @@ const Pricing = () => {
                 PURCHASE
               </button>
             </Link>
-            {console.log(cart)}
           </div>
         ))}
       </div>

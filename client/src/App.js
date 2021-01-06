@@ -6,6 +6,7 @@ import DetailScreen from './Screens/DetailScreen'
 import HomeScreen from './Screens/HomeScreen'
 import PriceScreen from './Screens/PriceScreen'
 import PaymentScreen from './Screens/PaymentScreen'
+import MembershipScreen from './Screens/MembershipScreen'
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/payment">
           <PaymentScreen />
+        </Route>
+        <Route path="/membership">
+          <MembershipScreen />
         </Route>
       </Switch>
     </Router>
