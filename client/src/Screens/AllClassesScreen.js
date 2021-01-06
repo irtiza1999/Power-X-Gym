@@ -8,7 +8,7 @@ const AllClassesScreen = () => {
   const [training, setTraining] = useState([])
   const [loading, setLoading] = useState(true)
   useEffect(() => {
-    fetch('http://localhost:5000/training')
+    fetch('https://powerxgymserver.herokuapp.com/training')
       .then((res) => res.json())
       .then((data) => {
         setTraining(data)

@@ -24,7 +24,9 @@ const PaymentDetail = () => {
 
   useEffect(() => {
     const addPaypalScript = async () => {
-      const { data: clientId } = await axios.get('http://localhost:5000/paypal')
+      const { data: clientId } = await axios.get(
+        'https://powerxgymserver.herokuapp.com/paypal'
+      )
       const script = document.createElement('script')
       script.type = 'text/javascript'
       script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}`
@@ -53,7 +55,7 @@ const PaymentDetail = () => {
       total: item[0].price,
       paymentId: paymentId.id,
     }
-    fetch('http://localhost:5000/addOrder', {
+    fetch('https://powerxgymserver.herokuapp.com/addOrder', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

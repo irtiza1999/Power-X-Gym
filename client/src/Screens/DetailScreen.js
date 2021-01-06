@@ -10,7 +10,7 @@ const DetailScreen = () => {
   const [loading, setLoading] = useState(true)
   const [trainingDetail, setTrainingDetail] = useState({})
   useEffect(() => {
-    fetch('http://localhost:5000/detail/' + key)
+    fetch('https://powerxgymserver.herokuapp.com/detail/' + key)
       .then((res) => res.json())
       .then((data) => {
         setTrainingDetail(data)
