@@ -21,20 +21,13 @@ const Header = (props) => {
                   <Nav.Link>
                     <Link to="/">Home</Link>
                   </Nav.Link>
-                  <Nav.Link>
-                    <Link to="/">Services</Link>
-                  </Nav.Link>
+
                   <Nav.Link>
                     <Link to="/allclasses">Our classes</Link>
                   </Nav.Link>
-                  <Nav.Link>
-                    <Link to="/">About us</Link>
-                  </Nav.Link>
+
                   <Nav.Link>
                     <Link to="/pricing">Pricing</Link>
-                  </Nav.Link>
-                  <Nav.Link>
-                    <Link to="/">Contact us</Link>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
