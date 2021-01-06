@@ -1,0 +1,35 @@
+.planCard {
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  margin: 10px !important;
+  width: 50% !important;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.cardLi {
+  position: absolute;
+  margin-left: -50px;
+}
+
+.checkoutBtn {
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: black;
+  background: #ffc850;
+}
+
+.checkoutBtn:focus {
+  outline: none;
+  border: none;
+}
+
+.checkoutBtn:hover {
+  font-size: 18px;
+  letter-spacing: 2px;
+}

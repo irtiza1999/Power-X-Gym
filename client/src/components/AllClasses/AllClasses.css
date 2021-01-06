@@ -1,0 +1,73 @@
+.classHead {
+  width: 100%;
+  text-decoration: none;
+}
+.classButton {
+  display: inline-flex;
+  height: 40px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: -100px;
+  background: rgba(255, 255, 255, 0.5);
+  align-items: center !important;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  overflow: hidden;
+}
+a,
+Link {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#classButton-7 {
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#classButton-7 a {
+  text-decoration: none;
+  position: relative;
+  left: 0;
+  transition: all 0.35s ease-Out;
+}
+
+#class-dub-arrow {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  background: rgb(247, 223, 6);
+  left: -310px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-Out;
+  bottom: 0;
+}
+
+#classButton-7 .cardHoverImg {
+  text-decoration: none;
+  width: 20px;
+  height: auto;
+}
+
+#classButton-7:hover #class-dub-arrow {
+  text-decoration: none;
+  left: 0;
+}
+
+#classButton-7:hover a {
+  left: 300px;
+  text-decoration: none;
+}

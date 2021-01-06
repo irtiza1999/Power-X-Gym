@@ -1,0 +1,68 @@
+.dCard {
+  padding: 15px;
+  background: #fff;
+  border-radius: 2px;
+  height: 100px;
+  margin: 1rem;
+  width: 300px;
+}
+
+.dCard-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.joinBtn {
+  display: inline-flex;
+  height: 40px;
+  width: 200px;
+  background: black;
+  float: left;
+  top: 50px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#joinBtn-7 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#joinBtn-7 a {
+  position: relative;
+  left: 0;
+  transition: all 0.35s ease-Out;
+}
+
+#joinBtn-arrow {
+  width: 100%;
+  height: 100%;
+  background: rgb(247, 223, 6);
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+
+#joinBtn-7 img {
+  width: 20px;
+  height: auto;
+}
+
+#joinBtn-7:hover #joinBtn-arrow {
+  left: 0;
+}
+
+#joinBtn-7:hover a {
+  left: 200px;
+}

@@ -1,0 +1,51 @@
+.bg-img {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.bg-img::before {
+  content: '';
+  background-image: linear-gradient(
+      rgba(19, 20, 20, 0.7),
+      rgba(20, 20, 20, 0.5)
+    ),
+    url('../../images/headbg.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.spancls {
+  opacity: 100;
+}
+
+.topNav a {
+  color: rgba(243, 239, 239);
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.topNav a:hover {
+  color: rgb(255, 238, 0);
+}
+.topNav a:focus {
+  color: rgb(255, 238, 0);
+}
+
+.btnMain {
+  width: 200px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: rgb(255, 238, 0);
+  border-radius: 5px;
+  transition-duration: 0.2s;
+}
+.btnMain:focus {
+  background: rgb(156, 146, 4);
+  outline: none;
+  border: none;
+}
